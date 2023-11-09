@@ -126,3 +126,90 @@ button:hover{
     background-color: var(--white);
     color:var(--purple);
 }
+.work{
+    width:1160px;
+    height: 1900px;
+    margin:80px;
+
+    
+}
+.work .topic p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 30px;
+}
+.projectt{
+    background-color: #e2e0e6;
+    padding: 20px;
+}
+.caption{
+    width:515px;
+    height:255px;
+    margin-top:200px;
+    margin-left:144px;
+}
+.caption h1{
+    font-size: 64px;
+    font-family: 'Playfair Display', serif;
+    color:#000000;
+    line-height: 85.31px;
+}
+
+.inquiry{
+    width:1160px;
+    height:200px;
+   margin-left:100px ;
+   padding-right: 100px;
+   padding-top: 49px;
+   border-radius: 20px;
+    background-color: #F9F7FE;
+}
+.inquiry h3{
+   width:298px;
+   height: 64px;
+   margin-left: 129px;
+   margin-right: 129px;
+   line-height: 63.98px;
+   font-size: 48px;
+   font-weight: 700;
+   font-family: 'Playfair Display', serif;
+   color:#000000; 
+}
+.inquiry p{
+    width:549px;
+    height:27px;
+    font-weight: 400;
+    line-height: 27px;
+    font-size: 18px;
+    color:#272142;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 118px;
+    
+}
+.email{
+   
+    text-align: center;
+    color: var(--black);
+    font-family: var(--poppins);
+    font-weight: 500;
+    line-height: 36px;
+    font-size: 24px;
+    padding-top: 49px;
+    cursor: pointer;
+}
+
+.socials{
+    text-align: center;
+    color: var(--purple);
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+i{
+    width:40px;
+    margin-left: 20px;
+    text-shadow: 0 0 30px  var(--purple);
+}
