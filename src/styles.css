@@ -7,6 +7,12 @@
     box-sizing: border-box;
 }
 
+:root{
+    --poppins:'Poppins', sans-serif;
+    --purple:#6C63FF;
+    --white: #FFFFFF;
+    --black:#000000;
+}
 body {
   width:1440px;
   height:900px;
@@ -52,7 +58,7 @@ header{
 }
 
 .nav-item {
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--poppins);
     font-weight: 500;
     padding-right: 8rem;
     line-height: 24px;
@@ -67,5 +73,56 @@ header{
 }
 
 .nav-item:hover{
-    color: #6C63FF;
+    color:var(--purple);
+
+}
+
+.hero{
+    padding: 160px 20px;
+    background-color: #F9F7FE;
+    text-align: center;
+}
+
+.hero .text .hi{
+    
+    font-family: var(--poppins);
+    font-weight: 700;
+    font-size: 36px;
+    margin: 0;
+    line-height: 2;
+    color:var(--black);
+
+}
+.hero .text h2{
+    font-family: var(--poppins);
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 127.97px;
+    color:var(--black);
+}
+
+.hero .text p{
+    font-family: var(--poppins);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+button{
+    width: 200px;
+    height:63px;
+    border-radius: 4px;
+    padding: 15px, 30px;
+    gap:10px;
+    background-color:var(--purple);
+    color: var(--white);
+    font-size: 18px;
+    border: none;
+    font-family: var(--poppins);
+   
+    
+}
+
+button:hover{
+    background-color: var(--white);
+    color:var(--purple);
 }
