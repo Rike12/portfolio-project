@@ -107,6 +107,31 @@ header{
     font-size: 24px;
     line-height: 36px;
 }
+
+button:hover{
+    background-color: var(--white);
+    color:var(--purple);
+}
+.about{
+    padding: 160px 20px;
+    text-align: center;
+}
+.about .content{
+    margin:30px;
+}
+.about h1{
+    font-size: 64px;
+    line-height: 1.5;
+    font-family: 'Playfair Display', serif ;
+}
+
+.about p{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif ;
+}
+.img-fluid{
+    border-radius: 10px;
+}
 button{
     width: 200px;
     height:63px;
