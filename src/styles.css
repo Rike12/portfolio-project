@@ -177,7 +177,7 @@ header{
 
 .work{
     max-width:1160px;
-    height: 1900px;
+    height: 1500px;
     margin:80px;
 
     
@@ -283,7 +283,15 @@ i{
     margin-left: 20px;
     text-shadow: 0 0 30px var(--purple);
 }
+.git{
+    font-size: 40px;
+    text-align: center;
+}
 
+.git a {
+    text-decoration: none;
+    color: var(--black);
+}
 
 @media  (max-width: 900px) {
     .nav-menu {
