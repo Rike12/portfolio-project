@@ -21,32 +21,38 @@
 <body>
     <body>
         <main>
-            <header class="header">
-                <nav class="navbar">
-                    <a href="/" class="nav-logo" title="Homepage"><img src="assets/logo.png" alt=" Mutiat's logo"></a>
-                    <ul class="nav-menu">
-                        <li class="nav-item">
-                            <a href="index.html" title="Homepage" class="nav-link">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="/about.html" title="Aboutpage"  class="nav-link">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="/portfolio.html" title="Portfoliopage"  class="nav-link">Work</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a href="/contact.html" title="Contactpage"  class="nav-link">Contact</a>
-                        </li>
-                    </ul>
-                    <div class="hamburger">
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                        <span class="bar"></span>
-                    </div>
+            <div class="container">
+                <nav class="d-flex justify-content-between">
+                  <a href="/" title="Homepage">
+                    <img
+                      src="assets/logo.png"
+                      class="logo d-none d-md-block"
+                      alt="Logo"
+                    />
+                    <img
+                      src="assets/logo-small.jpg"
+                      class="logo d-block d-md-none"
+                      alt="Logo"
+                    />
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="/index.html" title="Homepage"> Home</a>
+                    </li>
+                    <li>
+                      <a href="/about.html" title="About Patricia"> About</a>
+                    </li>
+                    <li>
+                      <a href="/portfolio.html" title="Patricia's work"> Work</a>
+                    </li>
+                    <li  class="active">
+                      <a href="/contact.html" title="Contact Patricia"> Contact</a>
+                    </li>
+                  </ul>
                 </nav>
-            </header>
+              </div>
             <div class="caption">
-                <h1>
+                <h1 class="mb-5">
                 Let's get in touch!
               </h1>
               </div>
@@ -63,15 +69,29 @@
               <footer>
 
               
-        <div class="email">
+        <div class="email d-flex justify-content-center mb-5">
   <a style="text-decoration: none; color: #000000;" href="mailto:mutiat900@gmail.com ">mutiat900@gmail.com</a>
 </div>
-<div class="socials">
-  <i class="fa fa-facebook"></i>
-  <i class="fa fa-twitter"> <a href="https://www.twitter.com/mutiat900" target="_blank">
-  </a></i>
-  <i class="fa fa-instagram"></i>
+<div class="socials d-flex justify-content-center">
+    <a
+    href="https://www.github.com/Rike12"
+    target="_blank"
+    title="GitHub Profile"
+  >
+    <i class="fa fa-github"></i>
+  </a>
+  <a href="https://www.twitter.com/mutiat900" target="_blank">  <i class="fa fa-twitter"></i>
+  </a>
+ <a href="https://www.linkedin.com/in/mutiat-adepoju" target="_blank">   <i class="fa fa-linkedin"></i>
+</a>
+</div>
+
+<div class="git">
+  <p class="text-center mt-5">✌️ This website was coded by Mutiat Adepoju, and you  view the source code
+   <a href="https://github.com/Rike12/portfolio-project"  target="_blank">Here</a>
+  </p>
 </div>
 </footer>
+</main>
 </body>
 </html>
