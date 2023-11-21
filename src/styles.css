@@ -52,7 +52,7 @@ body {
   
 
 .hero{
-    
+    max-width: 1440px;
     padding: 80px 20px;
     background-color: #F9F7FE;
     text-align: center;
